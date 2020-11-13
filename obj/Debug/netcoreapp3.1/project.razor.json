@@ -14417,6 +14417,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\ProjectDev\\ocbc\\DigiSign2\\src\\QRChecker\\Views\\Checker\\Index.cshtml",
+      "TargetPath": "Views\\Checker\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\ProjectDev\\ocbc\\DigiSign2\\src\\QRChecker\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
