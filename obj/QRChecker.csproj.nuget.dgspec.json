@@ -1,34 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ProjectDev\\ocbc\\DigiSign2\\src\\QRChecker\\QRChecker.csproj": {}
+    "/home/septian/Projects/qrchecker/QRChecker.csproj": {}
   },
   "projects": {
-    "D:\\ProjectDev\\ocbc\\DigiSign2\\src\\QRChecker\\QRChecker.csproj": {
+    "/home/septian/Projects/qrchecker/QRChecker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ProjectDev\\ocbc\\DigiSign2\\src\\QRChecker\\QRChecker.csproj",
+        "projectUniqueName": "/home/septian/Projects/qrchecker/QRChecker.csproj",
         "projectName": "QRChecker",
-        "projectPath": "D:\\ProjectDev\\ocbc\\DigiSign2\\src\\QRChecker\\QRChecker.csproj",
-        "packagesPath": "C:\\Users\\septian\\.nuget\\packages\\",
-        "outputPath": "D:\\ProjectDev\\ocbc\\DigiSign2\\src\\QRChecker\\obj\\",
+        "projectPath": "/home/septian/Projects/qrchecker/QRChecker.csproj",
+        "packagesPath": "/home/septian/.nuget/packages/",
+        "outputPath": "/home/septian/Projects/qrchecker/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\septian\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/septian/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "netcoreapp5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
+          "net5.0": {
+            "targetAlias": "netcoreapp5.0",
             "projectReferences": {}
           }
         },
@@ -39,8 +35,13 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
+        "net5.0": {
+          "targetAlias": "netcoreapp5.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -70,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
         }
       }
     }

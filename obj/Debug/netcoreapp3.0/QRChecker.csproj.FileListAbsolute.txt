@@ -1,0 +1,7 @@
+/home/septian/Projects/qrchecker/obj/Debug/netcoreapp3.0/QRChecker.csprojAssemblyReference.cache
+/home/septian/Projects/qrchecker/obj/Debug/netcoreapp3.0/QRChecker.AssemblyInfoInputs.cache
+/home/septian/Projects/qrchecker/obj/Debug/netcoreapp3.0/QRChecker.AssemblyInfo.cs
+/home/septian/Projects/qrchecker/obj/Debug/netcoreapp3.0/QRChecker.csproj.CoreCompileInputs.cache
+/home/septian/Projects/qrchecker/obj/Debug/netcoreapp3.0/QRChecker.MvcApplicationPartsAssemblyInfo.cache
+/home/septian/Projects/qrchecker/obj/Debug/netcoreapp3.0/QRChecker.RazorAssemblyInfo.cache
+/home/septian/Projects/qrchecker/obj/Debug/netcoreapp3.0/QRChecker.RazorAssemblyInfo.cs

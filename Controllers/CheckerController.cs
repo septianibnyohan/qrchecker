@@ -18,8 +18,24 @@ namespace QRChecker.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
+        [Route("checker/{id?}")]
+        public IActionResult Index(string id)
         {
+            var qrkey = id;
+
+            SignerRequest sign_request;
+            SignerFile sign_file;
+            using (var context = new DigiSign2Context())
+            {
+                var sign_qr = context.SignerQrs.FirstOrDefault(o => o.Qrkey == qrkey);
+                sign_file = context.SignerFiles.FirstOrDefault(o => o.RequestId == sign_qr.RequestId);
+                sign_request = context.SignerRequests.FirstOrDefault(o => o.Id == sign_qr.RequestId);
+            }
+
+            var urlfile = sign_request.PdfCertified;
+            ViewBag.urlfile = urlfile;
+            ViewBag.docname = sign_file.Name;
+
             return View();
         }
 
