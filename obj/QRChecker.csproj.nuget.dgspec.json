@@ -1,25 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "/home/septian/Projects/qrchecker/QRChecker.csproj": {}
+    "D:\\ProjectDev\\ocbc\\DigiSign2\\src\\QRChecker\\QRChecker.csproj": {}
   },
   "projects": {
-    "/home/septian/Projects/qrchecker/QRChecker.csproj": {
+    "D:\\ProjectDev\\ocbc\\DigiSign2\\src\\QRChecker\\QRChecker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/septian/Projects/qrchecker/QRChecker.csproj",
+        "projectUniqueName": "D:\\ProjectDev\\ocbc\\DigiSign2\\src\\QRChecker\\QRChecker.csproj",
         "projectName": "QRChecker",
-        "projectPath": "/home/septian/Projects/qrchecker/QRChecker.csproj",
-        "packagesPath": "/home/septian/.nuget/packages/",
-        "outputPath": "/home/septian/Projects/qrchecker/obj/",
+        "projectPath": "D:\\ProjectDev\\ocbc\\DigiSign2\\src\\QRChecker\\QRChecker.csproj",
+        "packagesPath": "C:\\Users\\septian\\.nuget\\packages\\",
+        "outputPath": "D:\\ProjectDev\\ocbc\\DigiSign2\\src\\QRChecker\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/home/septian/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\septian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -51,6 +56,10 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[5.0.0, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[5.0.0, )"
             }
           },
           "imports": [
@@ -71,7 +80,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
